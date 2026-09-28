@@ -1,0 +1,23 @@
+{
+    // markdown-pdf拡張機能が埋め込むデフォルトCSS(インラインコードの色指定 #C9AE75 等)を無効化します
+    "markdown-pdf.includeDefaultStyles": false,
+    // PDFの余白を指定します
+    "markdown-pdf.margin.left": "2cm",
+    "markdown-pdf.margin.right": "2cm",
+    "markdown-pdf.margin.top": "1.5cm",
+    "markdown-pdf.margin.bottom": "1.5cm",
+    // PDFヘッダーを非表示にします
+    "markdown-pdf.headerTemplate": "<span class='title' style='display: none;'></span>",
+    // PDFに適用するスタイルシートを指定します
+    "markdown-pdf.styles": [
+        "css\\github-markdown.css"  // GitHub 風
+        // "https://cdn.jsdelivr.net/npm/mdss"  // 本文が明朝体になる
+    ],
+    // スタイルシートの相対パスを有効にします
+    "markdown-pdf.stylesRelativePathFile": true,
+    // PDFフッターを指定します (文字サイズ大きめ)
+    "markdown-pdf.footerTemplate": "<div style=\"font-size: 10px; margin: 0 auto;\"> <span class='pageNumber'></span> / <span class='totalPages'></span></div>",
+    // PDFの縮尺を指定します
+    "markdown-pdf.scale": 0.9,
+    "markdown-pdf.outputDirectory": "output"
+}
